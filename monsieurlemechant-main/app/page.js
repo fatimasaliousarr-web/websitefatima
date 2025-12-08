@@ -4,7 +4,7 @@ export default function Home() {
       {/* Background */}
       <div className="absolute inset-0">
         <img
-          src="/1.jpeg"
+          src="/4.jpeg"
           className="h-full w-full object-cover"
           alt="Luxury Hotel Background"
         />
