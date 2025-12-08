@@ -4,7 +4,7 @@ export default function Services() {
       {/* Hero Section */}
       <section className="relative h-[90vh]">
         <img
-          src="/lux-jewelry.jpg"
+          src="/4.jpeg"
           alt="Luxury Jewelry"
           className="absolute inset-0 w-full h-full object-cover"
         />
@@ -29,7 +29,7 @@ export default function Services() {
         </div>
 
         <div className="text-center">
-          <img src="/j2.jpg" className="h-64 mx-auto mb-4 object-cover" />
+          <img src="/3.jpeg" className="h-64 mx-auto mb-4 object-cover" />
           <h2 className="font-serif text-2xl mb-2">Premium Materials</h2>
           <p className="text-gray-300 text-sm">
             Finest gemstones and metals selected with care.
@@ -37,7 +37,7 @@ export default function Services() {
         </div>
 
         <div className="text-center">
-          <img src="/j3.jpg" className="h-64 mx-auto mb-4 object-cover" />
+          <img src="/1.jpeg" className="h-64 mx-auto mb-4 object-cover" />
           <h2 className="font-serif text-2xl mb-2">Expert Craftsmanship</h2>
           <p className="text-gray-300 text-sm">
             Handmade pieces created by master artisans.
