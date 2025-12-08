@@ -1,58 +1,33 @@
-"use client";
-import Image from "next/image";
-import AnimatedCounter from "../components/AnimatedCounter";
-import Reveal from "../components/Reveal";
-
 export default function Home() {
   return (
-    <div className="pt-32 fade-in">
+    <main className="relative h-screen w-full">
+      {/* Background */}
+      <div className="absolute inset-0">
+        <img
+          src="/lux-hotel.jpg"
+          className="h-full w-full object-cover"
+          alt="Luxury Hotel Background"
+        />
+        <div className="absolute inset-0 bg-black/40"></div>
+      </div>
 
-      <section className="relative h-[90vh] w-full flex items-center fade-in">
+      {/* Content */}
+      <div className="relative z-10 h-full flex flex-col items-center justify-center text-center text-white px-6">
+        <h4 className="tracking-[0.3em] text-sm mb-3">
+          LUXURY HOTEL & BEST RESORT
+        </h4>
 
-  {/* Background image */}
-  <div 
-    className="absolute inset-0 bg-cover bg-center"
-    style={{ backgroundImage: "url('/info.jpeg')" }}
-  />
+        <h1 className="font-serif text-5xl md:text-7xl leading-tight mb-8">
+          ENJOY A LUXURY <br /> EXPERIENCE
+        </h1>
 
-  {/* Dark overlay */}
-  <div className="absolute inset-0 bg-black/60 backdrop-blur-sm"></div>
-
-  {/* CONTENT */}
-  <div className="relative z-10 section max-w-4xl">
-    <h1 className="text-6xl md:text-7xl font-bold gradient-gold mb-6 leading-tight">
-      Excellence & Raffinement
-    </h1>
-
-    <p className="text-gray-300 text-lg max-w-2xl mb-10">
-      Découvrez un univers façonné autour du luxe, de la précision et de l’élégance.
-      Nos solutions sont pensées pour les marques qui exigent plus que l’ordinaire.
-    </p>
-
-    <button className="btn-gold text-lg">Découvrir Nos Services</button>
-  </div>
-</section>
-
-
-
-      {/* COUNTERS HUMORISTIQUES */}
-      <section className="section grid grid-cols-2 md:grid-cols-4 gap-10 text-center">
-        <Reveal><AnimatedCounter end={120} label="Personnes taquinées" /></Reveal>
-        <Reveal><AnimatedCounter end={350} label="Moments gênants créés" /></Reveal>
-        <Reveal><AnimatedCounter end={15} label="Années à râler pour rien" /></Reveal>
-        <Reveal><AnimatedCounter end={45} label="Chats témoins de ses bêtises" /></Reveal>
-      </section>
-
-    </div>
+        <a
+          href="/services"
+          className="border border-white px-8 py-3 text-sm tracking-widest hover:bg-white hover:text-black transition-all duration-300"
+        >
+          ROOMS & SUITES
+        </a>
+      </div>
+    </main>
   );
 }
-console.log("DEPLOY TEST");
-
-
-
-
-
-
-
-
-
