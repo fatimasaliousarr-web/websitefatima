@@ -1,32 +1,49 @@
 export default function Services() {
   return (
-    <div className="pt-32 section">
-      <h1 className="text-4xl md:text-5xl font-semibold gradient-title mb-10">
-        Nos Services
-      </h1>
+    <main className="relative min-h-screen bg-black text-white pb-32">
+      {/* Hero Section */}
+      <section className="relative h-[90vh]">
+        <img
+          src="/lux-jewelry.jpg"
+          alt="Luxury Jewelry"
+          className="absolute inset-0 w-full h-full object-cover"
+        />
+        <div className="absolute inset-0 bg-black/60"></div>
 
-      <div className="grid md:grid-cols-3 gap-10">
-        <div className="bg-white/5 p-6 rounded-xl">
-          <h3 className="text-xl font-bold gold mb-2">Développement Web</h3>
-          <p className="text-gray-300">
-            Création de sites modernes, rapides et responsives.
+        <div className="relative z-10 h-full flex flex-col justify-center items-center text-center px-6">
+          <h1 className="font-serif text-6xl mb-4">SERVICES</h1>
+          <p className="text-lg tracking-wide max-w-2xl">
+            Discover our premium services crafted with elegance and exclusivity.
+          </p>
+        </div>
+      </section>
+
+      {/* Services Grid */}
+      <section className="grid grid-cols-1 md:grid-cols-3 gap-12 mt-20 px-10 max-w-6xl mx-auto">
+        <div className="text-center">
+          <img src="/j1.jpg" className="h-64 mx-auto mb-4 object-cover" />
+          <h2 className="font-serif text-2xl mb-2">Custom Designs</h2>
+          <p className="text-gray-300 text-sm">
+            Tailored luxury creations crafted uniquely for you.
           </p>
         </div>
 
-        <div className="bg-white/5 p-6 rounded-xl">
-          <h3 className="text-xl font-bold gold mb-2">Consulting</h3>
-          <p className="text-gray-300">
-            Accompagnement stratégique pour vos projets digitaux.
+        <div className="text-center">
+          <img src="/j2.jpg" className="h-64 mx-auto mb-4 object-cover" />
+          <h2 className="font-serif text-2xl mb-2">Premium Materials</h2>
+          <p className="text-gray-300 text-sm">
+            Finest gemstones and metals selected with care.
           </p>
         </div>
 
-        <div className="bg-white/5 p-6 rounded-xl">
-          <h3 className="text-xl font-bold gold mb-2">Formations</h3>
-          <p className="text-gray-300">
-            Sessions de formation pour monter en compétences.
+        <div className="text-center">
+          <img src="/j3.jpg" className="h-64 mx-auto mb-4 object-cover" />
+          <h2 className="font-serif text-2xl mb-2">Expert Craftsmanship</h2>
+          <p className="text-gray-300 text-sm">
+            Handmade pieces created by master artisans.
           </p>
         </div>
-      </div>
-    </div>
+      </section>
+    </main>
   );
 }
