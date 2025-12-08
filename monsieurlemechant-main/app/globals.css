@@ -62,3 +62,46 @@ body {
 .card:hover {
   background: rgba(255,255,255,0.08);
 }
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500&display=swap');
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: #000;
+  color: #fff;
+}
+
+.font-serif {
+  font-family: 'Playfair Display', serif;
+}
+
+.section {
+  padding: 6rem 2rem;
+}
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 1s forwards;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.btn-luxe {
+  border: 1px solid white;
+  padding: 12px 32px;
+  letter-spacing: .18em;
+  transition: 0.3s ease;
+}
+
+.btn-luxe:hover {
+  background-color: white;
+  color: black;
+}
+
