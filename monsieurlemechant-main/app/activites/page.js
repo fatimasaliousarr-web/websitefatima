@@ -3,7 +3,7 @@ export default function Activites() {
     <main className="relative h-screen w-full">
       {/* Background */}
       <div className="absolute inset-0">
-        <video
+        <img
           src="/3.jpeg"
           autoPlay
           loop
