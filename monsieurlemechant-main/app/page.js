@@ -37,6 +37,21 @@ export default function Home() {
 
         </div>
       </section>
+export default function Home() {
+  return (
+    <main>
+
+      {/* Hero */}
+      <section> ... </section>
+
+      {/* ⭐ COLLE LA SECTION COMPTEURS LUXE ICI ⭐ */}
+
+      {/* Tes autres sections */}
+      <section> ... </section>
+
+    </main>
+  );
+}
 
     </main>
   );
