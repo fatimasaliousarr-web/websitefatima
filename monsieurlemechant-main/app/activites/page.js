@@ -4,7 +4,7 @@ export default function Activites() {
       {/* Background */}
       <div className="absolute inset-0">
         <video
-          src="/2.jpeg"
+          src="/4.jpeg"
           autoPlay
           loop
           muted
