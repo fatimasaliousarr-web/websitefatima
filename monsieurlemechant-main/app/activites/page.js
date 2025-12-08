@@ -9,7 +9,7 @@ export default function Activites() {
           loop
           muted
           className="h-full w-full object-cover"
-        ></video>
+        ></img>
         <div className="absolute inset-0 bg-black/40"></div>
       </div>
 
