@@ -4,7 +4,7 @@ export default function Services() {
       {/* Hero Section */}
       <section className="relative h-[90vh]">
         <img
-          src="/4.jpeg"
+          src="/1.jpeg"
           alt="Luxury Jewelry"
           className="absolute inset-0 w-full h-full object-cover"
         />
