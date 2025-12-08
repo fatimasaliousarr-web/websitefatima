@@ -104,4 +104,26 @@ html, body {
   background-color: white;
   color: black;
 }
+/* Police serif premium */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap');
+
+.premium-title {
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 2px;
+}
+
+/* Glow doré subtil */
+.gold-glow {
+  color: #F5D08A;
+  text-shadow: 0 0 8px rgba(245, 208, 138, 0.4);
+}
+
+/* Lignes décoratives */
+.divider {
+  width: 60px;
+  height: 2px;
+  margin: 12px auto;
+  background: linear-gradient(to right, transparent, #F5D08A, transparent);
+}
+
 
