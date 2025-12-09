@@ -1,6 +1,7 @@
 "use client";
 
-import AnimatedCounter from "./components/AnimatedCounter.jsx";
+import AnimatedCounter from "./components/AnimatedCounter";
+
 
 export default function Home() {
   return (
