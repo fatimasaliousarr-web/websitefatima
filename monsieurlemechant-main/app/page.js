@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <main className="bg-[#050910] text-white">
 
-      {/* HERO SECTION */}
+      {/* HERO */}
       <section className="relative h-screen w-full">
         <img
           src="/2.jpeg"
@@ -34,9 +34,8 @@ export default function Home() {
       </section>
 
 
-      {/* SECTION COMPTEURS */}
+      {/* COMPTEURS */}
       <section className="py-28 max-w-7xl mx-auto px-6 text-center">
-
         <h2 className="text-5xl font-serif text-[#FFD56B]">Nos Chiffres</h2>
         <div className="w-24 h-1 bg-[#FFD56B] mx-auto my-4"></div>
 
@@ -65,6 +64,7 @@ export default function Home() {
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10 max-w-7xl mx-auto">
+
           <div className="bg-[#0B1220] p-10 rounded-2xl shadow-lg text-center hover:scale-105 transition duration-300">
             <h3 className="text-[#00AEEF] text-2xl font-semibold mb-4">
               Consulting Taquin
@@ -93,6 +93,7 @@ export default function Home() {
               Automatisation, leadership, humour et chaos parfaitement coordonné.
             </p>
           </div>
+
         </div>
       </section>
 
